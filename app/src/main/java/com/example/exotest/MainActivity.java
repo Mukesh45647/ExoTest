@@ -20,8 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //https://www.moreplex.com/trailer/CAREERWOMAN1562801819.webm
+        String url = "https://www.moreplex.com/trailer/CAREERWOMAN1562801819.webm";
         mp = MediaPlayer.create(this, Uri.parse("http://newslistener.com/Mukesh/1.mp4"));
         SurfaceView sv = (SurfaceView) findViewById(R.id.surface);
         //mp.addTimedTextSource(this, "", MediaPlayer.MEDIA_MIMETYPE_TEXT_SUBRIP);
